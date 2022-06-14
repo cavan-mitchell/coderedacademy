@@ -1,12 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-};
-
-// module.exports = nextConfig
-
-module.exports = {
   images: {
     domains: ["cdn.pixabay.com"],
+    loader: "akamai",
+    path: "",
   },
 };
+
+module.exports = nextConfig;
