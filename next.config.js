@@ -6,8 +6,8 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  basePath: "/coderedacademy",
-  assetPrefix: "/coderedacademy",
+  // basePath: "/coderedacademy",
+  // assetPrefix: "/coderedacademy",
 };
 
 module.exports = nextConfig;
